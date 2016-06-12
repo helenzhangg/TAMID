@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C32CAB81D0C3C0700F41F40 /* roundedImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */; };
+		2C32CABA1D0C474C00F41F40 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C32CAB91D0C474C00F41F40 /* profileViewController.swift */; };
 		2CB07F8A1D08288900B010AC /* image buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F871D08288900B010AC /* image buttons.swift */; };
 		2CB07F8B1D08288900B010AC /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F881D08288900B010AC /* TextField.swift */; };
 		2CB07F8C1D08288900B010AC /* rounded buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F891D08288900B010AC /* rounded buttons.swift */; };
-		2CB07F901D08303100B010AC /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F8F1D08303100B010AC /* profileViewController.swift */; };
+		2CB07F901D08303100B010AC /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F8F1D08303100B010AC /* CreateProfileViewController.swift */; };
 		473C43711CFE64CD00A4617E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C43701CFE64CD00A4617E /* FeedVC.swift */; };
 		473C43731CFE847F00A4617E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C43721CFE847F00A4617E /* PostCell.swift */; };
 		479C78BF1CF4C22400EC27D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C78BE1CF4C22400EC27D2 /* AppDelegate.swift */; };
@@ -32,10 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundedImageViews.swift; sourceTree = "<group>"; };
+		2C32CAB91D0C474C00F41F40 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		2CB07F871D08288900B010AC /* image buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "image buttons.swift"; sourceTree = "<group>"; };
 		2CB07F881D08288900B010AC /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		2CB07F891D08288900B010AC /* rounded buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "rounded buttons.swift"; sourceTree = "<group>"; };
-		2CB07F8F1D08303100B010AC /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		2CB07F8F1D08303100B010AC /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
 		473C43701CFE64CD00A4617E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		473C43721CFE847F00A4617E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		479C78BB1CF4C22400EC27D2 /* tamidShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamidShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,10 +106,7 @@
 				479C78D01CF4C35100EC27D2 /* Controller */,
 				479C78BE1CF4C22400EC27D2 /* AppDelegate.swift */,
 				479C78C21CF4C22400EC27D2 /* Main.storyboard */,
-				2CB07F8F1D08303100B010AC /* profileViewController.swift */,
-				2CB07F871D08288900B010AC /* image buttons.swift */,
-				2CB07F881D08288900B010AC /* TextField.swift */,
-				2CB07F891D08288900B010AC /* rounded buttons.swift */,
+				2C32CAB91D0C474C00F41F40 /* profileViewController.swift */,
 				479C78C51CF4C22400EC27D2 /* Assets.xcassets */,
 				479C78C71CF4C22400EC27D2 /* LaunchScreen.storyboard */,
 				479C78CA1CF4C22400EC27D2 /* Info.plist */,
@@ -126,8 +127,13 @@
 			isa = PBXGroup;
 			children = (
 				479C78E41CF4CD6000EC27D2 /* MaterialView.swift */,
-				479C78E91CF4FF1000EC27D2 /* MaterialButton.swift */,
 				479C78EB1CF5027D00EC27D2 /* MaterialTextField.swift */,
+				479C78E91CF4FF1000EC27D2 /* MaterialButton.swift */,
+				2CB07F871D08288900B010AC /* image buttons.swift */,
+				2CB07F881D08288900B010AC /* TextField.swift */,
+				2CB07F891D08288900B010AC /* rounded buttons.swift */,
+				2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */,
+				2CB07F8F1D08303100B010AC /* CreateProfileViewController.swift */,
 				473C43721CFE847F00A4617E /* PostCell.swift */,
 			);
 			name = View;
@@ -318,12 +324,14 @@
 				479C78E51CF4CD6000EC27D2 /* MaterialView.swift in Sources */,
 				479C78C11CF4C22400EC27D2 /* ViewController.swift in Sources */,
 				473C43711CFE64CD00A4617E /* FeedVC.swift in Sources */,
-				2CB07F901D08303100B010AC /* profileViewController.swift in Sources */,
+				2CB07F901D08303100B010AC /* CreateProfileViewController.swift in Sources */,
+				2C32CABA1D0C474C00F41F40 /* profileViewController.swift in Sources */,
 				473C43731CFE847F00A4617E /* PostCell.swift in Sources */,
 				2CB07F8C1D08288900B010AC /* rounded buttons.swift in Sources */,
 				479C78BF1CF4C22400EC27D2 /* AppDelegate.swift in Sources */,
 				479C78E81CF4CF8800EC27D2 /* Constants.swift in Sources */,
 				479C78EA1CF4FF1000EC27D2 /* MaterialButton.swift in Sources */,
+				2C32CAB81D0C3C0700F41F40 /* roundedImageViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
