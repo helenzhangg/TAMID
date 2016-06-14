@@ -48,8 +48,13 @@ EOM
       ibtool --reference-external-strings-file --errors --warnings --notices --minimum-deployment-target ${!DEPLOYMENT_TARGET_SETTING_NAME} --output-format human-readable-text --compile "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/`basename \"$RESOURCE_PATH\" .storyboard`.storyboardc" "$RESOURCE_PATH" --sdk "${SDKROOT}" ${TARGET_DEVICE_ARGS}
       ;;
     *.xib)
+<<<<<<< HEAD
       echo "ibtool --reference-external-strings-file --errors --warnings --notices --minimum-deployment-target ${!DEPLOYMENT_TARGET_SETTING_NAME} --output-format human-readable-text --compile ${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/`basename \"$RESOURCE_PATH\" .xib`.nib $RESOURCE_PATH --sdk ${SDKROOT}"
       ibtool --reference-external-strings-file --errors --warnings --notices --minimum-deployment-target ${!DEPLOYMENT_TARGET_SETTING_NAME} --output-format human-readable-text --compile "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/`basename \"$RESOURCE_PATH\" .xib`.nib" "$RESOURCE_PATH" --sdk "${SDKROOT}"
+=======
+      echo "ibtool --reference-external-strings-file --errors --warnings --notices --minimum-deployment-target ${!DEPLOYMENT_TARGET_SETTING_NAME} --output-format human-readable-text --compile ${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/`basename \"$RESOURCE_PATH\" .xib`.nib $RESOURCE_PATH --sdk ${SDKROOT} ${TARGET_DEVICE_ARGS}"
+      ibtool --reference-external-strings-file --errors --warnings --notices --minimum-deployment-target ${!DEPLOYMENT_TARGET_SETTING_NAME} --output-format human-readable-text --compile "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/`basename \"$RESOURCE_PATH\" .xib`.nib" "$RESOURCE_PATH" --sdk "${SDKROOT}" ${TARGET_DEVICE_ARGS}
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
       ;;
     *.framework)
       echo "mkdir -p ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
@@ -79,6 +84,21 @@ EOM
       ;;
   esac
 }
+<<<<<<< HEAD
+=======
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "FirebaseUI/FirebaseUIFrameworks/Auth/Resources/FirebaseAuthUIBundle.bundle"
+  install_resource "FirebaseUI/FirebaseUIFrameworks/Facebook/Resources/FirebaseFacebookAuthUIBundle.bundle"
+  install_resource "FirebaseUI/FirebaseUIFrameworks/Google/Resources/FirebaseGoogleAuthUIBundle.bundle"
+  install_resource "GoogleSignIn/Resources/GoogleSignIn.bundle"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "FirebaseUI/FirebaseUIFrameworks/Auth/Resources/FirebaseAuthUIBundle.bundle"
+  install_resource "FirebaseUI/FirebaseUIFrameworks/Facebook/Resources/FirebaseFacebookAuthUIBundle.bundle"
+  install_resource "FirebaseUI/FirebaseUIFrameworks/Google/Resources/FirebaseGoogleAuthUIBundle.bundle"
+  install_resource "GoogleSignIn/Resources/GoogleSignIn.bundle"
+fi
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

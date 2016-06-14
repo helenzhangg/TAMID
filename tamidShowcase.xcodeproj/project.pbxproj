@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+=======
+		2C32CAB81D0C3C0700F41F40 /* roundedImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */; };
+		2C32CABA1D0C474C00F41F40 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C32CAB91D0C474C00F41F40 /* profileViewController.swift */; };
+		2CB07F8A1D08288900B010AC /* image buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F871D08288900B010AC /* image buttons.swift */; };
+		2CB07F8B1D08288900B010AC /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F881D08288900B010AC /* TextField.swift */; };
+		2CB07F8C1D08288900B010AC /* rounded buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F891D08288900B010AC /* rounded buttons.swift */; };
+		2CB07F901D08303100B010AC /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F8F1D08303100B010AC /* CreateProfileViewController.swift */; };
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 		473C43711CFE64CD00A4617E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C43701CFE64CD00A4617E /* FeedVC.swift */; };
 		473C43731CFE847F00A4617E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473C43721CFE847F00A4617E /* PostCell.swift */; };
 		479C78BF1CF4C22400EC27D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C78BE1CF4C22400EC27D2 /* AppDelegate.swift */; };
@@ -28,6 +37,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+=======
+		2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundedImageViews.swift; sourceTree = "<group>"; };
+		2C32CAB91D0C474C00F41F40 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		2CB07F871D08288900B010AC /* image buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "image buttons.swift"; sourceTree = "<group>"; };
+		2CB07F881D08288900B010AC /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		2CB07F891D08288900B010AC /* rounded buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "rounded buttons.swift"; sourceTree = "<group>"; };
+		2CB07F8F1D08303100B010AC /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 		473C43701CFE64CD00A4617E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		473C43721CFE847F00A4617E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		479C78BB1CF4C22400EC27D2 /* tamidShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamidShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +112,10 @@
 				479C78D01CF4C35100EC27D2 /* Controller */,
 				479C78BE1CF4C22400EC27D2 /* AppDelegate.swift */,
 				479C78C21CF4C22400EC27D2 /* Main.storyboard */,
+<<<<<<< HEAD
+=======
+				2C32CAB91D0C474C00F41F40 /* profileViewController.swift */,
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 				479C78C51CF4C22400EC27D2 /* Assets.xcassets */,
 				479C78C71CF4C22400EC27D2 /* LaunchScreen.storyboard */,
 				479C78CA1CF4C22400EC27D2 /* Info.plist */,
@@ -114,8 +136,18 @@
 			isa = PBXGroup;
 			children = (
 				479C78E41CF4CD6000EC27D2 /* MaterialView.swift */,
+<<<<<<< HEAD
 				479C78E91CF4FF1000EC27D2 /* MaterialButton.swift */,
 				479C78EB1CF5027D00EC27D2 /* MaterialTextField.swift */,
+=======
+				479C78EB1CF5027D00EC27D2 /* MaterialTextField.swift */,
+				479C78E91CF4FF1000EC27D2 /* MaterialButton.swift */,
+				2CB07F871D08288900B010AC /* image buttons.swift */,
+				2CB07F881D08288900B010AC /* TextField.swift */,
+				2CB07F891D08288900B010AC /* rounded buttons.swift */,
+				2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */,
+				2CB07F8F1D08303100B010AC /* CreateProfileViewController.swift */,
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 				473C43721CFE847F00A4617E /* PostCell.swift */,
 			);
 			name = View;
@@ -179,12 +211,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 479C78CD1CF4C22400EC27D2 /* Build configuration list for PBXNativeTarget "tamidShowcase" */;
 			buildPhases = (
+<<<<<<< HEAD
 				745B2731B8C2CEFE7A521FB1 /* 📦 Check Pods Manifest.lock */,
 				479C78B71CF4C22400EC27D2 /* Sources */,
 				479C78B81CF4C22400EC27D2 /* Frameworks */,
 				479C78B91CF4C22400EC27D2 /* Resources */,
 				36A2962A61CB9A2340041CD9 /* 📦 Embed Pods Frameworks */,
 				ED26CC31CEA880EE13F8FDD9 /* 📦 Copy Pods Resources */,
+=======
+				745B2731B8C2CEFE7A521FB1 /* [CP] Check Pods Manifest.lock */,
+				479C78B71CF4C22400EC27D2 /* Sources */,
+				479C78B81CF4C22400EC27D2 /* Frameworks */,
+				479C78B91CF4C22400EC27D2 /* Resources */,
+				36A2962A61CB9A2340041CD9 /* [CP] Embed Pods Frameworks */,
+				ED26CC31CEA880EE13F8FDD9 /* [CP] Copy Pods Resources */,
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 			);
 			buildRules = (
 			);
@@ -247,14 +288,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+<<<<<<< HEAD
 		36A2962A61CB9A2340041CD9 /* 📦 Embed Pods Frameworks */ = {
+=======
+		36A2962A61CB9A2340041CD9 /* [CP] Embed Pods Frameworks */ = {
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< HEAD
 			name = "📦 Embed Pods Frameworks";
+=======
+			name = "[CP] Embed Pods Frameworks";
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,14 +311,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tamidShowcase/Pods-tamidShowcase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
 		745B2731B8C2CEFE7A521FB1 /* 📦 Check Pods Manifest.lock */ = {
+=======
+		745B2731B8C2CEFE7A521FB1 /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< HEAD
 			name = "📦 Check Pods Manifest.lock";
+=======
+			name = "[CP] Check Pods Manifest.lock";
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,14 +334,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
 		ED26CC31CEA880EE13F8FDD9 /* 📦 Copy Pods Resources */ = {
+=======
+		ED26CC31CEA880EE13F8FDD9 /* [CP] Copy Pods Resources */ = {
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< HEAD
 			name = "📦 Copy Pods Resources";
+=======
+			name = "[CP] Copy Pods Resources";
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,15 +364,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				2CB07F8A1D08288900B010AC /* image buttons.swift in Sources */,
+				2CB07F8B1D08288900B010AC /* TextField.swift in Sources */,
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 				479C78EC1CF5027D00EC27D2 /* MaterialTextField.swift in Sources */,
 				479C78EF1CF51EF800EC27D2 /* DataService.swift in Sources */,
 				479C78E51CF4CD6000EC27D2 /* MaterialView.swift in Sources */,
 				479C78C11CF4C22400EC27D2 /* ViewController.swift in Sources */,
 				473C43711CFE64CD00A4617E /* FeedVC.swift in Sources */,
+<<<<<<< HEAD
 				473C43731CFE847F00A4617E /* PostCell.swift in Sources */,
 				479C78BF1CF4C22400EC27D2 /* AppDelegate.swift in Sources */,
 				479C78E81CF4CF8800EC27D2 /* Constants.swift in Sources */,
 				479C78EA1CF4FF1000EC27D2 /* MaterialButton.swift in Sources */,
+=======
+				2CB07F901D08303100B010AC /* CreateProfileViewController.swift in Sources */,
+				2C32CABA1D0C474C00F41F40 /* profileViewController.swift in Sources */,
+				473C43731CFE847F00A4617E /* PostCell.swift in Sources */,
+				2CB07F8C1D08288900B010AC /* rounded buttons.swift in Sources */,
+				479C78BF1CF4C22400EC27D2 /* AppDelegate.swift in Sources */,
+				479C78E81CF4CF8800EC27D2 /* Constants.swift in Sources */,
+				479C78EA1CF4FF1000EC27D2 /* MaterialButton.swift in Sources */,
+				2C32CAB81D0C3C0700F41F40 /* roundedImageViews.swift in Sources */,
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

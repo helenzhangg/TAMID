@@ -16,12 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     override init() {
+<<<<<<< HEAD
+=======
+        FIRApp.configure()
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
     }
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+<<<<<<< HEAD
         FIRApp.configure()
+=======
+>>>>>>> 068ae2191d7f9955bf29b989634a203732918097
         
         return true
     }
